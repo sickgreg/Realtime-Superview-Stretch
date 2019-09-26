@@ -1,5 +1,5 @@
 
-#define PERCENTAGE_NOT_STRETCHED 0.6
+#define PERCENTAGE_NOT_STRETCHED 0.3
 #define INPUT_TO_OUTPUT_RATIO ( ( 4.0 / 3.0 ) / ( 16.0 / 9.0 ) )
 
 
