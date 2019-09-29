@@ -1,13 +1,12 @@
 # gpu-superview
-An HLSL shader program that transforms a 4:3 aspect ratio video to a 16:9 video using the GoPro SuperView method in real time in MPC-HC
+Real time GPU based 4:3 to 16:9 non linear stretch using the GoPro Superview method (close to it)
 
-I'm no programmer but i somehow managed to port a simple non linear horizontal stretch shader program (https://github.com/Provenance-Emu/Provenance/issues/639) to HLSL
+Works in Media Player Classic https://mpc-hc.org/ or similar player supporting HLSL shaders
 
+1. Right click on your 4:3 video in MPC-HC, select video frame / aspect ratio / 16:9 (will be ugly linear stretch)
+2. Add GPU-Superview.hlsl file to options / shaders
+3. Place effect in Pre-resize and apply
 
-1. Load the HLSL file into MPC-HC shaders
-2. Go full screen and use numpad 6 key to stretch the extra skinny looking image to fill the screen
+(You may also use in post-resize for better resampling at hi res but it will sometimes look wrong when not in full screen)
 
-Hopefully improvements can be made:
-
-  a) with the algorithm to be more like https://github.com/Niek/superview (which i love to apply to my 4:3 drone footage)
-  b) automatically fill the screen (not have to use keypad 6 to stretch)
+This was inspired by https://github.com/Niek/superview video converter tool 
