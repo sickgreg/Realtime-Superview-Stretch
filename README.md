@@ -3,7 +3,7 @@ Real time hardware based non linear horizontal scale (ie 4:3 to 16:9 or 16:9 to 
 
 Works in <b>Media Player Classic</b> https://mpc-hc.org/ or similar player supporting HLSL <b>shaders</b>
 
-Watch in SuperView instantly
+Watch as SuperView instantaneously
 
 <b>Instructions
 1. Set player to 16:9 (Right click, select video frame / aspect ratio / 16:9)
