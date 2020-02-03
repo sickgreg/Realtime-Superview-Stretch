@@ -1,7 +1,7 @@
 # Realtime Superview Stretch
 Real time hardware based non linear horizontal scale (ie 4:3 to 16:9 or 16:9 to 235:100) using the GoPro Superview method (close to it) which I understand appeared before GoPro as a concept in TV's to scale 4:3 content
 
-![16:9 to 235:100]()
+![16:9 to 235:100](https://github.com/sickgreg/Realtime-Superview-Stretch/blob/master/realtimeSV.gif)
 
 Works in <b>Media Player Classic</b> https://mpc-hc.org/ or similar player supporting HLSL <b>shaders</b>
 
