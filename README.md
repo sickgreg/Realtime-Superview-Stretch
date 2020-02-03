@@ -18,3 +18,5 @@ Instructions,
 (You may also use in post-resize for better resampling at hi res but it will sometimes look wrong if not in full screen)
 
 This was inspired by https://github.com/Niek/superview video converter tool, great for processing permanantly
+
+Note: The above image is from a native 16:9 camera, stretched to 235:100, the principal is the same
