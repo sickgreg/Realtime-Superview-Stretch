@@ -1,16 +1,15 @@
 # Realtime Superview Stretch
-Real time hardware based non linear horizontal scale (ie 4:3 to 16:9 or 16:9 to 235:100) using the GoPro Superview method (close to it) which I understand appeared before GoPro as a concept in TV's to scale 4:3 content
+Real time hardware based non linear horizontal scale (ie 4:3 to 16:9 or 16:9 to 235:100) using the GoPro Superview method (close to it)
 
 ![16:9 to 235:100](https://github.com/sickgreg/Realtime-Superview-Stretch/blob/master/realtimeSV.gif)
 
 Works in <b>Media Player Classic</b> https://mpc-hc.org/ or similar player supporting HLSL <b>shaders</b>
 
-Watch as SuperView instantaneously
+Watch as SuperView instantaneously.
 
 <b>Instructions
-1. Set player to 16:9 (Right click, select video frame / aspect ratio / 16:9)
-2. Add realtime-superview-stretch.hlsl to options / shaders
-3. Place effect in Pre-resize and apply</b>
+1. Set player to desired ratio (ie 16:9 or 235:100 (Right click, video frame / aspect ratio / x:x))
+2. Add realtime-superview-stretch.hlsl to options / shaders (Place effect in Pre-resize)</b>
 
 (You may also use in post-resize for better resampling at hi res but it will sometimes look wrong if not in full screen)
 
