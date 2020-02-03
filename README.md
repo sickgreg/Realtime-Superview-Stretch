@@ -7,9 +7,13 @@ Works in <b>Media Player Classic</b> https://mpc-hc.org/ or similar player suppo
 
 Watch as SuperView instantaneously.
 
-<b>Instructions,/b>
-  <b>1. Set player to desired ratio (ie 16:9 (Right click, video frame / aspect ratio / x:x))</b>
-  <b>2. Add realtime-superview-stretch.hlsl to options / shaders (Place effect in Pre-resize)</b>
+<b>
+Instructions,
+  
+  1. Set player to desired ratio, ie 16:9 (Right click, video frame / aspect ratio / 16:9)
+  
+  2. Add realtime-superview-stretch.hlsl to options / shaders (Place effect in Pre-resize)
+</b>
 
 (You may also use in post-resize for better resampling at hi res but it will sometimes look wrong if not in full screen)
 
